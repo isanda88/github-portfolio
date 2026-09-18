@@ -6,7 +6,7 @@
    <link rel="shortcut icon" href="assets/img/icon.png" type="image/x-icon">
    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.0.0/fonts/remixicon.css" rel="stylesheet">
    <link rel="stylesheet" href="assets/css/styles.css">
-   <title>AWS Cloud Project - Portfolio</title>
+   <title>AWS Cloud & Data - Portfolio</title>
 </head>
 <body>
    <header class="header" id="header">
@@ -32,20 +32,122 @@
                   <i class="ri-arrow-left-line"></i> Back to Projects
                </a>
                <h2 class="section__title" style="text-align: left;">
-                  AWS Data Engineering & Cloud Solutions
+                  AWS Data
                </h2>
+               
                <p class="about__description">
-                  <strong>Coming Soon...</strong><br>
-                  This project section will be published shortly. It will detail cloud architecture, S3 storage management, Redshift data warehousing, and AWS Glue ETL pipelines.
+                  A comprehensive End-to-End Cloud Data Solution built on AWS to extract, transform, catalog, and visualize datasets without managing physical server infrastructure.
                </p>
-               <div style="margin-top: 2rem;">
-                  <a href="index.html#projects" class="button" style="display: inline-flex; align-items: center; gap: 0.5rem;">
-                     <i class="ri-time-line"></i> Stay Tuned
-                  </a>
+
+               <div style="margin-bottom: 2.5rem;">
+                  <h3 style="color: var(--first-color); margin-bottom: 0.75rem;">Key Architecture & Tools</h3>
+                  <ul style="display: grid; gap: 0.5rem; color: var(--text-color);">
+                     <li><strong>Amazon S3:</strong> Scalable object storage for raw and processed datasets using lifecycle storage classes.</li>
+                     <li><strong>AWS Glue & Crawlers:</strong> Automated schema detection, metadata cataloging, and serverless ETL data integration.</li>
+                     <li><strong>AWS Glue DataBrew:</strong> Visual, code-free data cleaning, transformation recipes, and data quality checks.</li>
+                     <li><strong>Amazon Athena:</strong> Serverless ad-hoc SQL querying directly against S3 data using Workgroups for cost/access control.</li>
+                     <li><strong>AWS QuickSight:</strong> Interactive dashboards and data visualizations for insights extraction.</li>
+                  </ul>
                </div>
+
+               <a href="https://github.com/isanda88" target="_blank" class="button" style="display: inline-flex; align-items: center; gap: 0.5rem;">
+                  <i class="ri-github-line"></i> View Source Code
+               </a>
             </div>
+
             <div class="home__image">
-               <img src="assets/img/aws.png" alt="AWS Cloud Project Coming Soon" class="home__profile-img" style="border-radius: 1rem; width: 100%;">
+               <img src="assets/img/aws/background.png" alt="AWS Cloud Architecture Overview" class="home__profile-img" style="border-radius: 1rem; width: 100%;">
+            </div>
+         </div>
+
+       <div class="container" style="margin-top: 5rem;">
+            <div class="section__header">
+               <h3 class="section__title">Project Documentation & Screenshots</h3>
+               <p class="section__subtitle">Step-by-step visual execution of the AWS Cloud Pipeline</p>
+            </div>
+
+            <div class="projects__container grid">
+           
+               <div class="projects__card">
+                  <img src="assets/img/aws/firstbucket.jfif" alt="AWS S3 Bucket Setup" class="projects__img">
+                  <div class="projects__modal">
+                     <span class="projects__subtitle">Storage</span>
+                    
+                  </div>
+               </div>
+
+               
+               <div class="projects__card">
+                  <img src="assets/img/aws/tempfilemetadata.jfif" alt="CSV and Metadata Files in S3" class="projects__img">
+                  <div class="projects__modal">
+                     <span class="projects__subtitle">Storage</span>
+                   
+                  </div>
+               </div>
+
+            
+               <div class="projects__card">
+                  <img src="assets/img/aws/first agregator.jfif" alt="Aggregated CSV Output in S3" class="projects__img">
+                  <div class="projects__modal">
+                     <span class="projects__subtitle">Storage</span>
+                     
+                  </div>
+               </div>
+
+              
+               <div class="projects__card">
+                  <img src="assets/img/aws/queryeditor.jfif" alt="Defining Table Schema in Athena" class="projects__img">
+                  <div class="projects__modal">
+                     <span class="projects__subtitle">SQL Analytics</span>
+                    
+                  </div>
+               </div>
+
+               <div class="projects__card">
+                  <img src="assets/img/aws/queryathena.jfif" alt="Athena SQL DDL Queries" class="projects__img">
+                  <div class="projects__modal">
+                     <span class="projects__subtitle">SQL Analytics</span>
+                   
+                  </div>
+               </div>
+
+              
+               <div class="projects__card">
+                  <img src="assets/img/aws/firstdatasetindatabrew.jfif" alt="DataBrew Sample Project Selection" class="projects__img">
+                  <div class="projects__modal">
+                     <span class="projects__subtitle">No-Code Prep</span>
+                  
+                  </div>
+               </div>
+
+           
+
+              
+               <div class="projects__card">
+                  <img src="assets/img/aws/firstetlglue.jfif" alt="AWS Glue Visual ETL Job" class="projects__img">
+                  <div class="projects__modal">
+                     <span class="projects__subtitle">ETL Pipeline</span>
+                  
+                  </div>
+               </div>
+
+               
+               <div class="projects__card">
+                  <img src="assets/img/aws/firstviewawsdatavisualization.jfif" alt="QuickSight Visual Analysis" class="projects__img">
+                  <div class="projects__modal">
+                     <span class="projects__subtitle">Business Intelligence</span>
+                    
+                  </div>
+               </div>
+
+              
+               <div class="projects__card">
+                  <img src="assets/img/aws/secview.jfif" alt="QuickSight KPI Properties" class="projects__img">
+                  <div class="projects__modal">
+                     <span class="projects__subtitle">Business Intelligence</span>
+                   
+                  </div>
+               </div>
             </div>
          </div>
       </section>
