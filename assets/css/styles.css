@@ -198,6 +198,10 @@ svg {
   align-items: center;
 }
 
+
+
+
+
 .nav__logo {
   color: var(--title-color);
   font-weight: var(--font-medium);
@@ -520,7 +524,7 @@ svg {
 
 .projects__title {
   font-size: var(--h2-font-size);
-  margin-bottom: .75rem;
+  margin-bottom: .95rem;
 }
 
 .projects__button {

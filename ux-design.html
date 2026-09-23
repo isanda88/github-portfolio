@@ -13,7 +13,40 @@
    <!--=============== CSS ===============-->
    <link rel="stylesheet" href="assets/css/styles.css">
 
-   <title> A First Landing Page -  Portfolio</title>
+   <title>UX Design - Portfolio</title>
+
+   <style>
+      /* Ajustări pentru centrare și coborâre titlu */
+      .main {
+         padding-top: 8rem; /* Coboară tot conținutul sub navbar */
+      }
+
+      .projects__header-group {
+         text-align: center;
+         margin-top: 2rem;
+         margin-bottom: 3.5rem;
+      }
+
+      .projects__group-title {
+         font-size: var(--h1-font-size, 2.25rem);
+         margin-bottom: 0.75rem;
+         text-align: center;
+      }
+
+      .projects__group-subtitle {
+         font-size: var(--normal-font-size, 1rem);
+         color: var(--text-color, #6c757d);
+         max-width: 600px;
+         margin: 0 auto;
+         text-align: center;
+      }
+
+      .back-btn-container {
+         display: flex;
+         justify-content: center;
+         margin-bottom: 1.5rem;
+      }
+   </style>
 </head>
 
 <body>
@@ -55,42 +88,38 @@
 
    <!--==================== MAIN ====================-->
    <main class="main">
-      <!--==================== PROJECT DETAILS ====================-->
-      <section class="about section" id="project-details">
-         <div class="about__container container grid">
-            <div class="about__data">
-               
-               <a href="index.html#projects" class="button" style="margin-bottom: 2rem; display: inline-flex; align-items: center; gap: 0.5rem;">
-                  <i class="ri-arrow-left-line"></i> Back to Projects
-               </a>
-
-               <h2 class="section__title" style="text-align: left;">
-                
-               </h2>
-
-               <p class="about__description">
-                  A comprehensive web design mini-project created from scratch in Figma. Focused on building a complete Design System using modern features like Figma Variables and Auto Layouts.
-               </p>
-
-               <div class="home__image">
-                
-                  <img src="assets/img/figma2.gif" alt="Figma UX UI Project Preview" class="home__profile-img" style="border-radius: 1rem; width: 100%;">
-               </div>
-
-               <div style="margin-top: 1.5rem;">
-                  <h3 style="margin-bottom: 0.5rem; color: var(--title-color);">Key Workflow & Features:</h3>
-                  <p class="about__description">
-                     <strong>Design System:</strong> Style Guide preparation, Color Variables, Typography Variables<br>
-                     <strong>Component Architecture:</strong> Reusable Components, Component Variants, Advanced Auto Layouts<br>
-                     
-                  </p>
-               </div>
-
-              
-
+      <div class="projects__wrapper">
+            <div class="projects__header-group">
+               <h3 class="projects__group-title">Figma Projects</h3>
+               <p class="projects__group-subtitle">UX/UI case studies, design systems, and web layouts</p>
             </div>
-         </div>
-      </section>
+
+            <!-- Adăugat container grid pentru a le alinia orizontal -->
+            <div class="projects__container container grid">
+               <!-- Project 1 -->
+               <article class="projects__card">
+                  <img src="assets/img/p1.png" alt="Ioana's Cookies Mobile Ordering UI Project" class="projects__img">
+                  <div class="projects__modal">
+                     <span class="projects__subtitle">UX/UI Case Study</span>
+                     <h3 class="projects__title"> Mobile Ordering</h3>
+                     <a href="figmap1.html" class="projects__button">
+                        View Case Study <i class="ri-arrow-right-line"></i>
+                     </a>
+                  </div>
+               </article>
+
+            
+               <article class="projects__card">
+                  <img src="assets/img/p2.png" alt="Positivus Landing Page Web Design Project" class="projects__img">
+                  <div class="projects__modal">
+                     <span class="projects__subtitle">Web Design & Systems</span>
+                     <h2 class="projects__title">Web Design Page</h2>
+                     <a href="figmap2.html" class="projects__button">
+                        View Case Study <i class="ri-arrow-right-line"></i>
+                     </a>
+                  </div>
+               </article>
+            </div>
    </main>
 
    <!--==================== FOOTER ====================-->

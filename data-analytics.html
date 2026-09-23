@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+   <!--=============== FAVICON ===============-->
+   <link rel="shortcut icon" href="assets/img/icon.png" type="image/x-icon">
+
+   <!--=============== REMIXICONS ===============-->
+   <link href="https://cdn.jsdelivr.net/npm/remixicon@3.0.0/fonts/remixicon.css" rel="stylesheet">
+
+   <!--=============== CSS ===============-->
+   <link rel="stylesheet" href="assets/css/styles.css">
+
+   <title>Data Analytics - Portfolio</title>
+
+   <style>
+      /* Ajustări pentru centrare și coborâre titlu */
+      .main {
+         padding-top: 8rem; /* Coboară tot conținutul sub navbar */
+      }
+
+      .projects__header-group {
+         text-align: center;
+         margin-top: 2rem;
+         margin-bottom: 3.5rem;
+      }
+
+      .projects__group-title {
+         font-size: var(--h1-font-size, 2.25rem);
+         margin-bottom: 0.75rem;
+         text-align: center;
+      }
+
+      .projects__group-subtitle {
+         font-size: var(--normal-font-size, 1rem);
+         color: var(--text-color, #6c757d);
+         max-width: 600px;
+         margin: 0 auto;
+         text-align: center;
+      }
+
+      .back-btn-container {
+         display: flex;
+         justify-content: center;
+         margin-bottom: 1.5rem;
+      }
+   </style>
+</head>
+
+<body>
+   <!--==================== HEADER ====================-->
+   <header class="header" id="header">
+      <nav class="nav container">
+         
+         <div class="nav__menu" id="nav-menu">
+            <ul class="nav__list">
+               <li class="nav__item">
+                  <a href="index.html#home" class="nav__link">Home</a>
+               </li>
+
+               <li class="nav__item">
+                  <a href="index.html#about" class="nav__link">About</a>
+               </li>
+
+               <li class="nav__item">
+                  <a href="index.html#projects" class="nav__link active-link">Projects</a>
+               </li>
+
+               <li class="nav__item">
+                  <a href="index.html#contact" class="nav__link">Contact</a>
+               </li>
+            </ul>
+
+            <!-- Close button -->
+            <div class="nav__close" id="nav-close">
+               <i class="ri-close-line"></i>
+            </div>
+         </div>
+
+         <!-- Toggle button -->
+         <div class="nav__toggle" id="nav-toggle">
+            <i class="ri-menu-line"></i>
+         </div>
+      </nav>
+   </header>
+
+   <!--==================== MAIN ====================-->
+   <main class="main">
+      <!-- DATA ANALYTICS PROJECTS -->
+      <div class="projects__wrapper container">
+         
+         <!-- Button Back to Projects -->
+         <div class="back-btn-container">
+            <a href="index.html#projects" class="button" style="display: inline-flex; align-items: center; gap: 0.5rem;">
+               <i class="ri-arrow-left-line"></i> Back to Projects
+            </a>
+         </div>
+
+         <!-- Centered Header Title & Subtitle -->
+         <div class="projects__header-group">
+            <h1 class="projects__group-title">Data Analytics Projects</h1>
+            <p class="projects__group-subtitle">Core analytical workflows, dashboards, and database design</p>
+         </div>
+
+         <div class="projects__container container grid">
+            <!-- Project 1 -->
+            <article class="projects__card">
+               <img src="assets/img/MySQL.svg.webp" alt="MySQL Project" class="projects__img">
+               <div class="projects__modal">
+                  <span class="projects__subtitle">SQL</span>
+                  <h3 class="projects__title">MySQL</h3>
+                  <a href="sql.html" class="projects__button">
+                     View demo <i class="ri-arrow-right-line"></i>
+                  </a>
+               </div>
+            </article>
+
+            <!-- Project 2 -->
+            <article class="projects__card">
+               <img src="assets/img/Microsoft_Office_Excel_(2025–present).svg" alt="Excel Project" class="projects__img">
+               <div class="projects__modal">
+                  <span class="projects__subtitle">Excel</span>
+                  <h3 class="projects__title">Excel Project</h3>
+                  <a href="excel.html" class="projects__button">
+                     View demo <i class="ri-arrow-right-line"></i>
+                  </a>
+               </div>
+            </article>
+
+            <!-- Project 3 -->
+            <article class="projects__card">
+               <img src="assets/img/1679145022415.jfif" alt="Tableau Project" class="projects__img">
+               <div class="projects__modal">
+                  <span class="projects__subtitle">Tableau</span>
+                  <h3 class="projects__title">Tableau Project</h3>
+                  <a href="tableau.html" class="projects__button">
+                     View demo <i class="ri-arrow-right-line"></i>
+                  </a>
+               </div>
+            </article>
+
+            <!-- Project 4 -->
+            <article class="projects__card">
+               <img src="assets/img/Power-BI-logo.webp" alt="PowerBI Project" class="projects__img">
+               <div class="projects__modal">
+                  <span class="projects__subtitle">PowerBI</span>
+                  <h3 class="projects__title">PowerBI Project</h3>
+                  <a href="power-bi.html" class="projects__button">
+                     View demo <i class="ri-arrow-right-line"></i>
+                  </a>
+               </div>
+            </article>
+
+            <!-- Project 5 -->
+            <article class="projects__card">
+               <img src="assets/img/Python-logo.png" alt="Python Project" class="projects__img">
+               <div class="projects__modal">
+                  <span class="projects__subtitle">Python</span>
+                  <h2 class="projects__title">Python & Pandas</h2>
+                  <a href="python-pandas.html" class="projects__button">
+                     View demo <i class="ri-arrow-right-line"></i>
+                  </a>
+               </div>
+            </article>
+
+            <!-- Project 6 -->
+            <article class="projects__card">
+               <img src="assets/img/aws.png" alt="AWS Project" class="projects__img">
+               <div class="projects__modal">
+                  <span class="projects__subtitle">AWS</span>
+                  <h3 class="projects__title">Cloud Infrastructure</h3>
+                  <a href="aws.html" class="projects__button">
+                     View demo <i class="ri-arrow-right-line"></i>
+                  </a>
+               </div>
+            </article>
+
+            <!-- Project 7 -->
+            <article class="projects__card">
+               <img src="assets/img/Microsoft_Azure.svg.webp" alt="Azure Project" class="projects__img">
+               <div class="projects__modal">
+                  <span class="projects__subtitle">Azure</span>
+                  <h3 class="projects__title">Azure Introduction</h3>
+                  <a href="azure.html" class="projects__button">
+                     View demo <i class="ri-arrow-right-line"></i>
+                  </a>
+               </div>
+            </article>
+
+            <!-- Project 8 -->
+            <article class="projects__card">
+               <img src="assets/img/R_logo.svg" alt="R Project" class="projects__img">
+               <div class="projects__modal">
+                  <span class="projects__subtitle">R</span>
+                  <h3 class="projects__title">R Project</h3>
+                  <a href="r.html" class="projects__button">
+                     View demo <i class="ri-arrow-right-line"></i>
+                  </a>
+               </div>
+            </article>
+         </div>
+      </div>
+   </main>
+
+   <!--==================== FOOTER ====================-->
+   <footer class="footer">
+      <div class="footer__container container grid">
+         <div>
+            <h1 class="footer__title">
+               Ioana <span>Sandu</span>
+            </h1>
+         </div>
+
+         <div class="footer__social">
+            <a href="https://github.com/isanda88" target="_blank" class="footer__social-link">
+               <i class="ri-github-fill"></i>
+            </a>
+
+            <a href="https://www.linkedin.com/in/ioana-s-191797383/" target="_blank" class="footer__social-link">
+               <i class="ri-linkedin-box-line"></i>
+            </a>
+         </div>
+
+         <span class="footer__copy">
+            &#169; Copyright Bedimcode. All rights reserved
+         </span>
+      </div>
+   </footer>
+
+   <!--========== SCROLL UP ==========-->
+   <a href="#" class="scrollup" id="scroll-up">
+      <i class="ri-arrow-up-line"></i>
+   </a>
+
+   <!--=============== SCROLLREVEAL ===============-->
+   <script src="assets/js/scrollreveal.min.js"></script>
+
+   <!--=============== MAIN JS ===============-->
+   <script src="assets/js/main.js"></script>
+</body>
+</html>
